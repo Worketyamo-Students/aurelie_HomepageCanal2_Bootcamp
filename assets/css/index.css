@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/*initialisation*/
+:root{
+    --FontSizeDefault:10px;
+    --FontInter:"Inter", sans-serif;
+    --FontOpen:"Open Sans", sans-serif;
+    --FontIbm:"IBM Plex Sans Hebrew", sans-serif;
+
+    --BlackColor:#000E01;
+    --GreenMenu:#79AC78;
+    --GreenMenubouton:#618264;
+    --WhiteColor:#FFFFFF;
+}
+html{
+    font-size:var(--FontSizeDefault) ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* debut gestion du header*/
+header{
+    width: 100%;
+    height: 7.5rem;
+    background: pink;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    height: 6.5rem;
+    width: 50rem;
+    background: peru;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    font-family: var(--FontInter);
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: var(--BlackColor);
+}
+
+header .active{
+    color: var(--GreenMenu);
+    text-decoration: underline;
+}
+
+.btn{
+    padding-right: 5rem;
+}
+
+button{
+    font-family: var(--FontInter);
+    font-weight: 700;
+    font-size:2rem;
+    height: 6.9rem;
+    width: 20.3rem;
+    border-radius: 5rem;
+    color: var(--WhiteColor);
+    background-color: var(--GreenMenubouton);
+}
+/*fin gestion du header*/
+
