@@ -528,4 +528,48 @@ ion-icon {
 }
 /*fin gestion suite partie5*/
 
+/*debut gestion footer*/
+.foot{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--GreenMenu);
+    align-items: center;
+    justify-content: center;
+}
+
+.foot .bouton{
+    /* background: palevioletred; */
+    display: flex;
+    width: 22rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot ion-icon {
+  color:var(--WhiteColor);
+  font-size: 3.2rem;
+}
+
+
+ .foot .bouton1 ion-icon {
+  color:var(--GreenMenu);
+  font-size: 2rem;
+}
+
+.foot .bouton1{
+    height: 3rem;
+    width: 3rem;
+    background: var(--WhiteColor);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*fin gestion footer*/
+
+
 
