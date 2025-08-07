@@ -336,3 +336,46 @@ ion-icon {
     justify-content: center;
 }
 /*fin gestion partie3*/
+
+/*debut gestion suite partie3*/
+.partie3-suite{
+    /* background: #ccc; */
+    display: flex;
+    height: 45rem;
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    justify-content: space-between;
+    margin-top: 20rem;
+}
+
+.t img{
+    border: 0.1rem solid #D9D9D9;
+}
+
+.partie3-suite-texte img{
+    border-radius:  1.5rem;;
+}
+
+.partie3-suite-texte {
+    /* background: paleturquoise; */
+    display: flex;
+    flex-direction: column;
+    gap:0.6rem;
+}
+
+.partie3-suite h3{
+    font-family: var(--FontInter);
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--GreenMenu);
+}
+
+.partie3-suite p{
+    font-family: var(--FontIbm);
+    font-weight: 600;
+    font-size: 2.4rem;
+
+}
+/*fin gestion suite partie3*/
