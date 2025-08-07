@@ -160,7 +160,7 @@ button{
 }
 
 .corps1-texte{
-    /* background: palegoldenrod; */
+    background: palegoldenrod;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -172,3 +172,42 @@ button{
     gap:5rem;
 }
 /*fin gestion du body partie1*/
+
+/*debut gestion suite partie1*/
+.partie1-suite{
+    background: #ccc;
+    display: flex;
+    height: 45rem;
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.partie1-suite h3{
+    font-family: var(--FontInter);
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--GreenMenu);
+}
+
+.partie1-suite p{
+    font-family: var(--FontIbm);
+    font-weight: 600;
+    font-size: 2.4rem;
+
+}
+
+.partie1-suite-texte{
+    background: paleturquoise;
+    display: flex;
+    flex-direction: column;
+    gap:0.6rem;
+}
+
+.partie1-suite img{
+    border-radius: 1.5rem;
+}
+/*fin gestion suite partie1*/
