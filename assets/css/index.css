@@ -238,7 +238,7 @@ button{
     height: 70rem;
     display: flex;
     justify-content: center;
-    background: peru;
+    /* background: peru; */
 }
 
 .partie2-image img{
@@ -432,3 +432,54 @@ ion-icon {
     justify-content: space-between;
 }
 /*fin gestion partie4*/
+
+/*debut gestion partie5*/
+.partie5{
+    height: 70rem;
+    width: 100%;
+    background: peru;
+    /* margin-top: 10rem; */
+    display: flex;
+    margin-top: 15rem;
+}
+
+.partie5 .carre{
+    width:1.3rem;
+    height:5rem;
+    background: var(--GreenMenubouton);
+
+}
+
+.partie5 h1{
+    writing-mode:vertical-lr;/****************/
+    transform: rotate(180deg); 
+    /* transform-origin: left top; 
+    display: inline-block;  */
+    font-family: var(--FontIbm);
+    font-weight:600;
+    font-size: 4.8rem;
+    /* display: flex; */
+}
+
+.partie5 .texte{
+    height: 58rem;
+    width: 100%;
+    background: palegreen;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.partie5 .im{
+    flex:3;
+    height: 55rem;
+    width: 100%;
+    background: bisque;
+    
+}
+
+/*fin gestion partie5*/
+
