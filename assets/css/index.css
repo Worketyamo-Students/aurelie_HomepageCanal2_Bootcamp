@@ -642,9 +642,10 @@ ion-icon {
 
 /*fin gestion footer*/
 
-@media only screen and (max-width:730px){
+@media only screen and (max-width:720px){
     body{
         overflow-x: hidden;
+        width: 100vw;
         
     }
 
@@ -667,7 +668,7 @@ ion-icon {
 
     header{
         padding: 0 2rem;
-        margin-top: 6rem;
+        /* margin-top: 6rem; */
     }
 
     .partie1{
